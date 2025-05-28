@@ -1,4 +1,4 @@
-# Librarian - Personal Book Collection Manager
+# PyBrary - Personal Book Collection Manager
 
 Librarian is a desktop application built with Python and Tkinter that helps you manage your personal book collection. It allows you to fetch book details from the OpenLibrary API using an ISBN, store this information locally in a CSV file, and view your collection with book cover images.
 
