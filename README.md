@@ -80,7 +80,13 @@ Librarian is a desktop application built with Python and Tkinter that helps you 
 
 The script expects and creates the following file/directory structure in the directory where it is run:
 
-.├── Library RC1.py         # Or your script's name├── book_collection.csv    # Stores your book data├── covers/                # Directory for downloaded cover images│   ├── ISBN1.jpg│   └── ISBN2.jpg│   └── ...└── placeholder.png        # Optional: Your custom placeholder image
+.├── Library RC1.py         # Or your script's name
+    ├── book_collection.csv    # Stores your book data
+        ├── covers/                # Directory for downloaded cover images│   
+        ├── ISBN1.jpg│   
+        └── ISBN2.jpg│   
+        └── ...
+    └── placeholder.png        # Optional: Your custom placeholder image
 ## Error Handling & Logging
 
 * The application displays error messages using dialog boxes for common issues like:
