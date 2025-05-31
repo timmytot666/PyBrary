@@ -53,9 +53,9 @@ Librarian is a desktop application built with Python and Tkinter that helps you 
 
 1.  **Run the script:**
     ```bash
-    python "Library RC1.py"
+    python "PyBrary.py"
     ```
-    (Replace `"Library RC1.py"` with the actual name of your Python file if you've renamed it).
+    (Replace `"PyBrary.py"` with the actual name of your Python file if you've renamed it).
 
 2.  **Adding a Book:**
     * Enter the ISBN of the book you want to add into the "Enter ISBN" field.
