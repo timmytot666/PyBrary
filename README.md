@@ -76,6 +76,26 @@ Librarian is a desktop application built with Python and Tkinter that helps you 
     * The collection is automatically saved to `book_collection.csv` whenever a book is added or its read status is changed.
     * You can also manually save the collection by clicking the "Save Collection" button.
 
+## Demo / Sample Data
+
+The repository includes a script `demo_generator.py` that can be used to populate the application with sample book data and cover images. This is useful for quickly seeing PyBrary in action or for development testing.
+
+**To run the demo generator:**
+
+1.  Ensure you have the necessary dependencies installed (Pillow, Requests).
+2.  Open your terminal or command prompt in the root directory of the project.
+3.  Run the script:
+    ```bash
+    python demo_generator.py
+    ```
+
+**Warning:** Running this script will overwrite the existing `library_collection.csv` file and may add or overwrite images in the `covers/` directory. If you have existing data you wish to keep, please back it up before running the demo generator.
+
+After running the script, launch PyBrary to see the sample collection:
+```bash
+python PyBrary.py
+```
+
 ## File Structure
 
 The script expects and creates the following file/directory structure in the directory where it is run:
